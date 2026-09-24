@@ -1,0 +1,1 @@
+import{cu as a,a as o}from"./index-CuYYnpxu.js";const r=typeof window<"u"&&o.isNativePlatform();function d(n){const[i,s]=a.useState(!1);return a.useEffect(()=>{if(r)return;const e=window.matchMedia(`(min-width: ${n}px)`),t=()=>s(e.matches);return e.addEventListener("change",t),t(),()=>e.removeEventListener("change",t)},[n]),i}export{d as u};
