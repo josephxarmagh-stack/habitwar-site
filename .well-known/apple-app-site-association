@@ -1,0 +1,44 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["G372A4R8K5.com.nicholaspiva.habittracker"],
+        "components": [
+          { "/": "/", "exclude": true },
+          { "/": "/auth", "exclude": true },
+          { "/": "/auth/*", "exclude": true },
+          { "/": "/app", "exclude": true },
+          { "/": "/landing", "exclude": true },
+          { "/": "/welcome", "exclude": true },
+          { "/": "/legal/*", "exclude": true },
+          { "/": "/reset-password", "exclude": true },
+          { "/": "/discover", "exclude": true },
+          { "/": "/u", "exclude": true },
+          { "/": "/war", "exclude": true },
+          { "/": "/.well-known/*", "exclude": true },
+          { "/": "/app-icon.png", "exclude": true },
+          { "/": "/best-simple-habit-tracker.html", "exclude": true },
+          { "/": "/favicon.ico", "exclude": true },
+          { "/": "/favicon.png", "exclude": true },
+          { "/": "/googlead609efb46fa083e.html", "exclude": true },
+          { "/": "/habit-tracker-with-friends.html", "exclude": true },
+          { "/": "/habitwar-logo.png", "exclude": true },
+          { "/": "/habitwar-vs-beeminder.html", "exclude": true },
+          { "/": "/habitwar-vs-finch.html", "exclude": true },
+          { "/": "/habitwar-vs-habitica.html", "exclude": true },
+          { "/": "/habitwar-vs-streaks.html", "exclude": true },
+          { "/": "/llms.txt", "exclude": true },
+          { "/": "/manifest.json", "exclude": true },
+          { "/": "/og-image.png", "exclude": true },
+          { "/": "/placeholder.svg", "exclude": true },
+          { "/": "/robots.txt", "exclude": true },
+          { "/": "/sitemap.xml", "exclude": true },
+          { "/": "/war/*", "comment": "War invite links open in the app" },
+          { "/": "/u/*", "comment": "Public profile links open in the app" },
+          { "/": "/*", "comment": "Short profile links gethabitwar.com/<username> open in the app" }
+        ]
+      }
+    ]
+  }
+}
