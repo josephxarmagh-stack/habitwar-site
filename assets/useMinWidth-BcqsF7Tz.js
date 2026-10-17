@@ -1,0 +1,1 @@
+import{eR as i,e as o}from"./index-tvvTD7l6.js";const r=typeof window<"u"&&o.isNativePlatform();function d(n){const[a,s]=i.useState(!1);return i.useEffect(()=>{if(r)return;const e=window.matchMedia(`(min-width: ${n}px)`),t=()=>s(e.matches);return e.addEventListener("change",t),t(),()=>e.removeEventListener("change",t)},[n]),a}export{d as u};

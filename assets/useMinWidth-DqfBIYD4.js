@@ -1,1 +1,0 @@
-import{dH as i,d as o}from"./index-CK52G3mC.js";const r=typeof window<"u"&&o.isNativePlatform();function c(n){const[a,s]=i.useState(!1);return i.useEffect(()=>{if(r)return;const e=window.matchMedia(`(min-width: ${n}px)`),t=()=>s(e.matches);return e.addEventListener("change",t),t(),()=>e.removeEventListener("change",t)},[n]),a}export{c as u};
