@@ -1,0 +1,1 @@
+import{c1 as i}from"./WarSegments-DVAJFhNG.js";const r="Everyone in the war sees this habit's check-ins, notes and photos, even if it's Only me.",c="While it's in a war, the war's members see its check-ins, notes and photos.";function h(s,e){if(!s||!e)return!1;const{rooms:a,cards:n}=i(s);return a.some(t=>t.status==="active"&&n[t.id]?.myHabitId===e)}export{c as O,r as W,h};
